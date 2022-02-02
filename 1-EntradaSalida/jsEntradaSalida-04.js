@@ -4,6 +4,19 @@ y lo muestro por 'ID' al presionar el botón 'mostrar'
 */
 function mostrar()
 {
-	alert("ok");
+	//declare variable
+	var nombreIngresado;
+
+	//pido el nombre por prompt
+	nombreIngresado = prompt("ingrese su nombre");
+
+	// guardar   =    dato
+	document.getElementById('txtIdNombre').value = nombreIngresado;
+
+
+	/* Seria innecesario usar 
+	alert("su nombre es: "+nombreIngresado);
+    porque no me lo pide la consigna.   
+	*/
 }
 
