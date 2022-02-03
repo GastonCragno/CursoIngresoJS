@@ -20,8 +20,8 @@ function sumar()
 
 	//Paso a enteros las variables
 
-    primernumero = parseInt(primernumero)
-    segundonumero =parseInt(segundonumero)
+    primernumero = parseInt(primernumero);
+    segundonumero =parseInt(segundonumero);
 
 	//le doy el valor al resultado mediante la suma de las variables
 
