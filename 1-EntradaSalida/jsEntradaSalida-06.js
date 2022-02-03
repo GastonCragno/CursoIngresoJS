@@ -13,12 +13,15 @@ function sumar()
 	var resultado
 
 
+	//Tomo los valores que de el usuario en las variables
+
+	primernumero = document.getElementById('txtIdNumeroUno').value;
+	segundonumero = document.getElementById('txtIdNumeroDos').value;
+
 	//Paso a enteros las variables
 
-	primernumero = parseInt(document.getElementById('txtIdNumeroUno').value);
-
-	segundonumero = parseInt(document.getElementById('txtIdNumeroDos').value);
-
+    primernumero = parseInt(primernumero)
+    segundonumero =parseInt(segundonumero)
 
 	//le doy el valor al resultado mediante la suma de las variables
 
