@@ -6,7 +6,7 @@ y luego mostrarlo por 'alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
 	//ponemos una variable
-	var nombreingresado;
+	let nombreingresado;
 	
 	//le pedimos a la persona que ingrese su nombre
 	nombreingresado=prompt("ingrese su nombre") ;

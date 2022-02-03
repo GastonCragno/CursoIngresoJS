@@ -5,7 +5,7 @@ Instrucción 'if' 3
 function mostrar()
 
 {
-	var edad
+	let edad;
 
 	edad = parseInt(document.getElementById('txtIdEdad').value);
 
@@ -18,6 +18,6 @@ function mostrar()
 	{alert("Es menor de edad");}
 
 	
-	alert("FIN DE LA FUNCIÓN")
+	alert("FIN DE LA FUNCIÓN");
 
 }//FIN DE LA FUNCIÓN

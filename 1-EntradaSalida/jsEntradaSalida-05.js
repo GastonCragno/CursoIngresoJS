@@ -6,8 +6,8 @@ ej.: "Usted se llama José y tiene 66 años" 	*/
 function mostrar()
 {	
 	//propongo las variables
-	var nombreIngresado
-	var edadIngresada
+	let nombreIngresado;
+	let edadIngresada;
 	
 	//encadeno el las variables a cada cuadro.
 

@@ -4,7 +4,7 @@ Instrucción 'if' 6
 
 function mostrar()
 {
-	var edad
+	let edad;
 
 	edad = parseInt(document.getElementById('txtIdEdad').value);
 

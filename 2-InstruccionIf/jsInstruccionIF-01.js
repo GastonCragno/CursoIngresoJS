@@ -5,7 +5,7 @@ Instrucción 'if' 1
 function mostrar()
 {
 	//propongo una variante
-	var edad
+	let edad;
 
 	//pongo el valor del cuadro a la variante y como entero
 	edad = parseInt(document.getElementById('txtIdEdad').value);
@@ -14,7 +14,7 @@ function mostrar()
 	if ( edad == 15 ) {alert("niña bonita");
 }
 
-	alert("FIN DE LA FUNCIÓN")
+	alert("FIN DE LA FUNCIÓN");
 
 }//FIN DE LA FUNCIÓN
 

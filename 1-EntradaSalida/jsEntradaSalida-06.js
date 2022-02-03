@@ -8,9 +8,9 @@ mostrar el resulto por medio de "ALERT"*/
 function sumar()
 {
 	//propongo las variables
-	var primernumero
-	var segundonumero
-	var resultado
+	let primernumero;
+	let segundonumero;
+	let resultado;
 
 
 	//Tomo los valores que de el usuario en las variables

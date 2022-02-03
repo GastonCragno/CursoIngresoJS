@@ -8,10 +8,10 @@ en el cuadro de texto "RESULTADO"*/
 function mostrarAumento()
 {
 	//propongo las variables
-	var primernumero
-	var x
-	var y
-	var resultado
+	let primernumero;
+	let x;
+	let y;
+	let resultado;
 
 
 	//Tomo el sueldo del usuario y doy valor a las otras variables
@@ -35,5 +35,5 @@ function mostrarAumento()
 	document.getElementById('txtIdResultado').value=resultado;
 }
 
-	txtIdImporte
-	txtIdResultado
+	//txtIdImporte
+	//txtIdResultado

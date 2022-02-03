@@ -8,9 +8,9 @@ ej.: "la Resta es 750"*/
 function sumar()
 {	
 	//propongo las variables
-	var primernumero
-	var segundonumero
-	var resultado
+	let primernumero;
+	let segundonumero;
+	let resultado;
 
 
 	//Tomo los valores que de el usuario en las variables
@@ -35,9 +35,9 @@ function sumar()
 function restar()
 {
 	//propongo las variables
-	var primernumero
-	var segundonumero
-	var resultado
+	let primernumero;
+	let segundonumero;
+	let resultado;
 
 
 	//Tomo los valores que de el usuario en las variables
@@ -61,9 +61,9 @@ function restar()
 function multiplicar()
 { 
 	//propongo las variables
-	var primernumero
-	var segundonumero
-	var resultado
+	let primernumero;
+	let segundonumero;
+	let resultado;
 
 
 	//Tomo los valores que de el usuario en las variables
@@ -87,9 +87,9 @@ function multiplicar()
 function dividir()
 {
 	//propongo las variables
-	var primernumero
-	var segundonumero
-	var resultado
+	let primernumero;
+	let segundonumero;
+	let resultado;
 
 
 	//Tomo los valores que de el usuario en las variables
