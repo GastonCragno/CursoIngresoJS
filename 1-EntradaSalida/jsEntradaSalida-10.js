@@ -9,29 +9,19 @@ function mostrarAumento()
 {
 	//propongo las variables
 	let primernumero;
-	let x;
-	let y;
 	let resultado;
 
-
-	//Tomo el sueldo del usuario y doy valor a las otras variables
-	//para hacer el calculo
-
+	//Tomo el sueldo del usuario
 	primernumero = document.getElementById('txtIdImporte').value;
-	x = 100
-	y = 75
+	
 
-	//Paso a enteros la variable del importe
-
+	//Paso a numeros el dato que ingreso el usuario como texto
     primernumero = parseInt(primernumero);
 
-	//hago la ecuacion para sacar el porcentaje 
-	//del importe
-
-	resultado = primernumero / x * y;
+	//hago la ecuacion para sacar el porcentaje del importe
+	resultado = primernumero / 100 * 75;
 
 	//muestro el resultado en el cuadro de texto
-	
 	document.getElementById('txtIdResultado').value=resultado;
 }
 

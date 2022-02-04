@@ -14,17 +14,14 @@ function sumar()
 
 
 	//Tomo los valores que de el usuario en las variables
-
 	primernumero = document.getElementById('txtIdNumeroUno').value;
 	segundonumero = document.getElementById('txtIdNumeroDos').value;
 
 	//Paso a enteros las variables
-
     primernumero = parseInt(primernumero);
     segundonumero =parseInt(segundonumero);
 
 	//le doy el valor al resultado mediante la suma de las variables
-
 	resultado = primernumero + segundonumero;
 
 	//muestro el resultado de la suma
@@ -41,17 +38,14 @@ function restar()
 
 
 	//Tomo los valores que de el usuario en las variables
-
 	primernumero = document.getElementById('txtIdNumeroUno').value;
 	segundonumero = document.getElementById('txtIdNumeroDos').value;
 
 	//Paso a enteros las variables
-
     primernumero = parseInt(primernumero);
     segundonumero =parseInt(segundonumero);
 
 	//le doy el valor al resultado mediante la resta de las variables
-
 	resultado = primernumero - segundonumero;
 
 	//muestro el resultado de la resta
@@ -67,17 +61,14 @@ function multiplicar()
 
 
 	//Tomo los valores que de el usuario en las variables
-
 	primernumero = document.getElementById('txtIdNumeroUno').value;
 	segundonumero = document.getElementById('txtIdNumeroDos').value;
 
 	//Paso a enteros las variables
-
     primernumero = parseInt(primernumero);
     segundonumero =parseInt(segundonumero);
 
 	//le doy el valor al resultado mediante la multiplicacion de las variables
-
 	resultado = primernumero * segundonumero;
 
 	//muestro el resultado de la multiplicacion
@@ -93,17 +84,14 @@ function dividir()
 
 
 	//Tomo los valores que de el usuario en las variables
-
 	primernumero = document.getElementById('txtIdNumeroUno').value;
 	segundonumero = document.getElementById('txtIdNumeroDos').value;
 
 	//Paso a enteros las variables
-
     primernumero = parseInt(primernumero);
     segundonumero =parseInt(segundonumero);
 
 	//le doy el valor al resultado mediante la divicion de las variables
-
 	resultado = primernumero / segundonumero;
 
 	//muestro el resultado de la divicion

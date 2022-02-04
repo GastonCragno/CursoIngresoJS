@@ -14,25 +14,16 @@ function mostrarAumento()
 	let y;
 	let resultado;
 
+	//Tomo el sueldo del usuario
+	primernumero = document.getElementById('txtIdSueldo').value;	
 
-	//Tomo el sueldo del usuario y doy valor a las otras variables
-	//para hacer el calculo
-
-	primernumero = document.getElementById('txtIdSueldo').value;
-	x = 100
-	y = 110
-
-	//Paso a enteros la variable del sueldo
-
+	//Paso a numeros el dato tomado como texto
     primernumero = parseInt(primernumero);
 
-	//hago la ecuacion para sacar el porcentaje 
-	//del sueldo
-
-	resultado = primernumero / x * y;
+	//hago la ecuacion para sacar el porcentaje del sueldo
+	resultado = primernumero / 100 * 110;
 
 	//muestro el resultado en el cuadro de texto
-
 	document.getElementById('txtIdResultado').value=resultado;
 }
 

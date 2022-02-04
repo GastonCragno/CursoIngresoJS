@@ -14,17 +14,14 @@ function SacarResto()
 
 
 	//Tomo los valores que de el usuario en las variables
-
 	primernumero = document.getElementById('txtIdNumeroDividendo').value;
 	segundonumero = document.getElementById('txtIdNumeroDivisor').value;
 
 	//Paso a enteros las variables
-
     primernumero = parseInt(primernumero);
     segundonumero =parseInt(segundonumero);
 
 	//saco el resto mediante la operacion
-
 	resultado = primernumero % segundonumero;
 
 	//muestro el resultado
