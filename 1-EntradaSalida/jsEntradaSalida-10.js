@@ -19,7 +19,7 @@ function mostrarAumento()
     primernumero = parseInt(primernumero);
 
 	//hago la ecuacion para sacar el porcentaje del importe
-	resultado = primernumero / 100 * 75;
+	resultado = primernumero * 0.75;
 
 	//muestro el resultado en el cuadro de texto
 	document.getElementById('txtIdResultado').value=resultado;

@@ -21,7 +21,7 @@ function mostrarAumento()
     primernumero = parseInt(primernumero);
 
 	//hago la ecuacion para sacar el porcentaje del sueldo
-	resultado = primernumero / 100 * 110;
+	resultado = primernumero * 1.10;
 
 	//muestro el resultado en el cuadro de texto
 	document.getElementById('txtIdResultado').value=resultado;
