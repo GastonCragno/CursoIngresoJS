@@ -14,7 +14,6 @@ function mostrar()
 	if ( edad == 15 ) {alert("niña bonita");
 }
 
-	alert("FIN DE LA FUNCIÓN");
 
 }//FIN DE LA FUNCIÓN
 

@@ -83,7 +83,7 @@ function PrecioFinal ()
 
 
 	//pongo el alert con el resultado
-	alert("El precio final más IVA es "+resultado);
+	alert("El precio final más 21% de IVA es "+resultado);
 }
 
 	//txtIdPrecioUno

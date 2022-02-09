@@ -13,9 +13,8 @@ function mostrar()
 	if ( edad <13 ) {alert("no es adolescente");} 
 
 	if ( edad >17 ) {alert("no es adolescente");} 
-	
-	alert("FIN DE LA FUNCIÓN");
+}
 
-}//FIN DE LA FUNCIÓN
+	//FIN DE LA FUNCIÓN
 
 	//txtIdEdad

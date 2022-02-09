@@ -10,8 +10,6 @@ function mostrarAumento()
 {
 	//propongo las variables
 	let primernumero;
-	let x;
-	let y;
 	let resultado;
 
 	//Tomo el sueldo del usuario
