@@ -1,8 +1,17 @@
+/* Gaston Cragno
+Instrucción 'if' 8
+*/
 function mostrar()
 {
 	//tomo la edad  
-	alert("ok");
-	
+	let edad;
+	let estadocivil;
 
+	edad = parseInt(document.getElementById('txtIdEdad').value);
+	estadocivil = document.getElementById('estadoCivil').value;
+
+	if (edad >=18 && estadocivil == "Soltero"){
+ 
+	alert("Es soltero y no es menor")};
 
 }//FIN DE LA FUNCIÓN

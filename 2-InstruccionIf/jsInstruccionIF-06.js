@@ -14,11 +14,11 @@ function mostrar()
 		}
 
 	else {
-		 if ( edad >=13 && edad <=17 ){
+		 if ( edad <=17 ){
 	 		alert("es un adolescente");
 	 		}
 	 	else { 
 	 		alert("es un adulto");
-	 	}
-	}
-}//FIN DE LA FUNCIÓN
+	 		}
+		}
+}	//FIN DE LA FUNCIÓN
