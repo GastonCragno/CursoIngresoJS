@@ -1,6 +1,28 @@
+/* Gaston Cragno
+Instrucción 'Switch' 7
+*/
+
 function mostrar()
 {
-	var destinoIngresado =txtIdDestino.value;
-	alert(destinoIngresado);
+	let destino;
 
-}//FIN DE LA FUNCIÓN
+	destino = document.getElementById('txtIdDestino').value;
+
+	switch(destino){
+		case "Bariloche":
+		case "Ushuaia":		
+		alert("Sur.");
+		break;
+
+		case "Mar del plata":
+		alert("Oeste.");
+		break;
+
+		case "Cataratas":
+		alert("Norte.");
+
+		default:
+		break;
+	}
+
+}//FIN DE LA FUNCIÓN  txtIdDestino.value

@@ -14,7 +14,7 @@ function FahrenheitCentigrados ()
 	temperatura = document.getElementById('txtIdTemperatura').value;
 
 	//paso a entero la temperatura dada
-	temperatura = parseInt(temperatura);
+	temperatura = parseFloat(temperatura);
 
 	//planteo la operacion
 	resultado = (temperatura - 32) * (5/9);
@@ -33,7 +33,7 @@ function CentigradosFahrenheit ()
 	temperatura = document.getElementById('txtIdTemperatura').value;
 
 	//paso a entero la temperatura dada
-	temperatura = parseInt(temperatura);
+	temperatura = parseFloat(temperatura);
 
 	//planteo la operacion
 	resultado = (temperatura * 9/5) + 32;
