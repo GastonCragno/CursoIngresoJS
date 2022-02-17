@@ -23,7 +23,7 @@ function mostrar()
 		break;
 
 		case "Diciembre":
-		alert("Felices fiesta!!!.")
+		alert("Felices fiesta!!!.");
 		break;
 
 		default:

@@ -40,11 +40,11 @@ function mostrar()
 		case 4:
 		case 5:
 		case 6:
-		alert("Es de noche.")
+		alert("Es de noche.");
 		break;
 
 		default:
-		alert("La hora no existe.")
+		alert("La hora no existe.");
 		break;
 	}
 

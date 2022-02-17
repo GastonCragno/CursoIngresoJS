@@ -13,24 +13,79 @@ function CalcularPrecio ()
  	let lamparas;
     let precioLamparas;
     let marca;
-    let precioConDescuento;
+    let precioConDescuento; 
+    let descuento;
 
     lamparas = parseInt(document.getElementById('txtIdCantidad').value);
     marca = document.getElementById('Marca').value;
     
     precioLamparas = lamparas * 35;
+    
 
     if (lamparas >5) {
         precioConDescuento = precioLamparas / 2;
     }
+    else {
+        if (lamparas =5) {
+            switch(marca){
+        
+            case "ArgentinaLuz":
+            descuento = 40;   
+            break;
+            default: descuento = 30;
+            break;
+            }
+        }
+        else {
+                if(lamparas =4) {
+                    switch(marca){
 
-    if (lamparas =5) {
-        precioConDescuento = precioLamparas/100*60;}
+                    case "ArgentinaLuz":
+                    case "FelipeLamparas":
+                    descuento = 25;
+                    break;
+                    default:
+                    descuento = 20;
+                    break;
+                    }
+                }
+                else{
+                    if (lamparas =3) {
+                        switch(marca){
 
-        else {precioConDescuento = precioLamparas/100*70;
+                    case "ArgentinaLuz":
+                    descuento = 15;
+                    break;
+                    case "FelipeLamparas":
+                    descuento = 10;
+                    break;
+                    default:
+                    descuento = 5;
+                    break;
+                    }
+                    
+                }
+            }
+        }
     }
 
-    document.getElementById('txtIdprecioDescuento').value = precioConDescuento;
 
+                
+
+    
+
+ 
+    precioConDescuento = precioLamparas - precioLamparas * descuento / 100;
+    
+    if (precioConDescuento > 120) {
+        
+        precioConDescuento = precioConDescuento + precioConDescuento * 10/100;   
+        alert("IIBB Usted pago X");
     }
+    else { precioConDescuento = precioConDescuento;
+    }
+    mensaje = precioConDescuento;
+    document.getElementById('txtIdprecioDescuento').value = mensaje;
 
+    
+}

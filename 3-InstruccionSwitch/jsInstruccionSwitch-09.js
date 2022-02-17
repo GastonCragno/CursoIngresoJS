@@ -4,13 +4,13 @@ Instrucción 'Switch' 9
 
 function mostrar()
 {
-	let estacion 
-	let destino
-	let precioBase
-	let mensaje
+	let estacion;
+	let destino;
+	let precioBase;
+	let mensaje;
 
-	estacion = document.getElementById('txtIdEstacion').value
-	destino = document.getElementById('txtIdDestino').value 
+	estacion = document.getElementById('txtIdEstacion').value;
+	destino = document.getElementById('txtIdDestino').value;
 	precioBase = 15000
 
 	switch(estacion){

@@ -1,71 +1,59 @@
+/* Gaston Cragno
+Instrucción 'Switch' 10
+*/
 function mostrar()
 {
-	let estacion 
-	let destino
-	let precioBase
-	let mensaje
+	let estacion; 
+	let destino;
+	let precioBase;
+	let mensaje;
 
-	estacion = document.getElementById('txtIdEstacion').value
-	destino = document.getElementById('txtIdDestino').value 
+	estacion = document.getElementById('txtIdEstacion').value;
+	destino = document.getElementById('txtIdDestino').value;
 	precioBase = 15000
 
 	switch(estacion){
 		case "Invierno":
 		switch(destino){
 			case "Bariloche":
-			precioBase = precioBase + precioBase * 20/100;		
+			alert("Se viaja");		
 			break;
 
-			case "Cataratas":
-			case "Cordoba":
-			precioBase = precioBase - precioBase * 10/100;
+			default:
+			alert("No se viaja");
 			break;
-
-			case "Mar del plata":
-			precioBase = precioBase - precioBase * 20/100;
 			}
 		break;
 
 		case "Verano":
 		switch(destino){
-			case "Bariloche":
-			precioBase = precioBase - precioBase * 20/100;		
-			break;
-
-			case "Cataratas":
-			case "Cordoba":
-			precioBase = precioBase + precioBase * 10/100;
-			break;
-
 			case "Mar del plata":
-			precioBase = precioBase + precioBase * 20/100;
+			case "Cataratas":
+			alert("Se viaja");		
+			break;
+			default:
+			alert("No se viaja");
+			break;
 			}
 		break;
 
 		case "Otoño":
+		switch(destino){
+			default:
+			alert("Se viaja");
+			break;
+			}
+		break;
+
 		case "Primavera":
 		switch(destino){
 			case "Bariloche":
-			precioBase = precioBase + precioBase * 10/100;		
+			alert("No se viaja");		
 			break;
-
-			case "Cataratas":
-			precioBase = precioBase + precioBase * 10/100;
-			break;
-
-			case "Mar del plata":
-			precioBase = precioBase + precioBase * 10/100;
-			break;
-
-			case "Cordoba":
-			precioBase;
+			default:
+			alert("Se viaja");
 			break;
 			}
 	}
-	
-	mensaje = "El precio para " +destino+ " en " +estacion+ " es de $" +precioBase;
-	alert(mensaje);
 
-
-
-}//FIN DE LA FUNCIÓN
+}   //FIN DE LA FUNCIÓN

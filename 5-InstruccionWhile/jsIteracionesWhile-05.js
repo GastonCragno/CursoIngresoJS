@@ -1,12 +1,18 @@
-/*
+/* Gaston Cragno
+Instrucción 'While' 5
+
 Al presionar el botón pedir un sexo
 'f' para femenino, 'm' para masculino.*/
 function mostrar()
 {
-	var sexoIngresado;
-	sexoIngresado = prompt("ingrese f ó m .");
+	let sexoIngresado;
+	
+	sexoIngresado = prompt("ingrese f = femenino, m = masculino");
 
+	while (sexoIngresado != "f" && sexoIngresado != "m") {
+	sexoIngresado = prompt("Error: ingrese f = femenino, m = masculino");
+	}
 
+	document.getElementById('txtIdSexo').value = "Sexo validado";
 
-	txtIdSexo.value=sexoIngresado;
 }//FIN DE LA FUNCIÓN
