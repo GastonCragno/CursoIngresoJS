@@ -48,7 +48,7 @@ function mostrar()
 		case "Primavera":
 		switch(destino){
 			case "Bariloche":
-			alert("No se viaja");		
+			alert("No se viaja");
 			break;
 			default:
 			alert("Se viaja");
